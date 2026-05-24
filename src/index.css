@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: linear-gradient(135deg, #f5f7ff 0%, #e5f1ff 100%);
+  color: #1f2937;
+}
+
+button,
+input {
+  font: inherit;
+}
